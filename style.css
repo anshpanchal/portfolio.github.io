@@ -253,7 +253,7 @@ section .title::after {
 .projects .title::after,
 .college-diaries .title::after {
     background: #111;
-    content: "Projects that I did in B-Tech";
+    content: "Projects in BTech";
 }
 .projects .projects-content .card {
     width: calc(33% - 20px);
@@ -268,6 +268,9 @@ section .title::after {
 }
 .projects .projects-content .card:hover {
     background:#f1a210;
+}
+.projects .projects-content .card:hover .box {
+    transform: scale(1.05);
 }
 .projects .projects-content .card i {
     font-size: 50px;
@@ -677,6 +680,7 @@ footer {
         justify-content: center;
         margin: 0 auto 60px;
     }
+
    /* .about .about-content .column .right{
         flex: 100%;
         justify-content: center;
@@ -693,6 +697,11 @@ footer {
     .contact .contact-content .column {
         width: 100%;
         margin-bottom: 35px;
+    }
+    .footer-content .right-content  {
+        
+        font-size: 20px;
+        padding-top: 90px;
     }
 }
 
@@ -713,13 +722,39 @@ footer {
     .projects .projects-content .card {
         width: 100%;
     }
+    .footer-content .right-content  {
+        
+        font-size: 20px;
+        padding-top: 90px;
+    }
 }
 
 @media (max-width: 500px) {
-    .home .home-content .text-2 {
-        font-size: 50px;
+    .max-width {
+        padding: 0 13px;
+    }
+    .home .home-content .text-2 {   
+        font-size: 40px;
     }
     .home .home-content .text-3 {
         font-size: 27px;
+    }
+    .home .home-content a{
+        font-size: 10px;
+        padding: 6px 20px;
+    }
+    .projects .projects-content .card {
+        width: 100%;
+    }
+    .footer-content .left-content {
+        padding-bottom: 70px;
+    }
+     .footer-content .right-content  {
+        display: inline-block;
+        font-size: 12px;
+        padding-top: 30px;
+        padding-left: 130px;
+        padding-right: 60px;
+        padding-bottom: 40px;
     }  
 }

@@ -401,7 +401,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .js::before {
-    width: 60%;
+    width: 10%;
 }
 
 .skills .skills-content .right .mysql::before {
@@ -409,23 +409,23 @@ section .title::after {
 }
 
 .skills .skills-content .right .java::before {
-    width: 70%;
-}
-
-.skills .skills-content .right .blockchain::before {
-    width: 40%;
-}
-
-.skills .skills-content .right .ds::before {
-    width: 40%;
-}
-
-.skills .skills-content .right .cyberSecurity::before {
     width: 50%;
 }
 
+.skills .skills-content .right .blockchain::before {
+    width: 20%;
+}
+
+.skills .skills-content .right .ds::before {
+    width: 20%;
+}
+
+.skills .skills-content .right .cyberSecurity::before {
+    width: 20%;
+}
+
 .skills .skills-content .right .php::before {
-    width: 40%;
+    width: 20%;
 }
 
 /* College Diaries Styling*/

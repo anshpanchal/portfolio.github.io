@@ -281,7 +281,7 @@ section .title::after {
 
 .projects .title::after, .college-diaries .title::after {
     background: #111;
-    content: "Projects in BTech";
+    content: "Projects I have Worked ON";
 }
 
 .projects .projects-content .card {

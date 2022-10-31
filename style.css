@@ -119,7 +119,7 @@ html {
 .home {
     display: flex;
     background: url("images/Ansh_Profile_Portfolio.png") no-repeat right;
-    height: 100vh;
+    height: 110vh;
     color: #000000;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
